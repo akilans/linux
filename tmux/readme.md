@@ -13,4 +13,8 @@
 * ctl+b then arrow keys - move between panes
 * ctl+b then & - kill windows
 * tmux kill-session -t kubernetes - kill session
+* ctl+b then ":setw synchronize-panes" - execute commands on all the nodes
+* ctl+b then ":setw synchronize-panes off" - stop the synchronization
+* ctl+b then [ - to scroll 
 * 
+
