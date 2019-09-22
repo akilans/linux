@@ -44,3 +44,24 @@
 * :s/you/they - replace 'you' with 'they' for 1st occurance
 * :s/you/they/g - replace 'you' with'they' for global
 * :s/you/they/gc - asks for confirmation
+* :e hello.py - Edit another file, it will be in buffer
+* :bd - buffer delete
+* :e ./ - list all the files in current directory, and move j,k to select
+* :e! - undo all changes
+* :ls - list buffers
+* :b hello.txt - moves to hello.txt buffer
+* :bn - next, :b 3 - moves to 3rd buffer
+* :bp - previous buffer
+* :r hello.py - add hello.py contents in the current file
+* :set number | :se nu - set number
+* :set nonumber | :se nonu - remove number
+* ~/.vimrc - set number " Set number in front of line
+* :abb _me akil.dove2gmail.com - 
+* _me+ctl+v - not expand
+* :comm! WC !wc % - by calling WC, it counts the number of lines in the current file
+* :syntax on - syntax for programming
+* :colorscheme industry, morning, blue, evening
+* vi time.txt +4d +wq - opens time.txt deletes line 4 and writing on dist
+* vi -d file1.txt file2.txt - compares 2 files, ctl+w+w moves between windows
+* vi files.txt, then :r |ls - > writes list of files in the current direcorty to files.txt file
+* 
