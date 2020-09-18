@@ -1,6 +1,6 @@
 # linux
 
-''' bash
+``` bash
 # Read stdin from cmd line
 "Akilan" | hello.sh -s
  
@@ -24,4 +24,4 @@ cat akilan.txt 2> /dev/null
 languages="PHP;Python;NodeJS;Go"
 echo $languages | tr ";" "\n"
 
-'''
+```
