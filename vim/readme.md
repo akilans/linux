@@ -1,6 +1,7 @@
 # VIM editor - Linkedin Learning
 * vi hello.txt - edit,create file using vi editor
 * :qa! - quite vi editor
+* :w !sudo tee % - save file by root inside vi editor
 * Normal mode and Insert mode
 * : - Normal mode
 * i - Insert mode
