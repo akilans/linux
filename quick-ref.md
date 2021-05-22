@@ -1,6 +1,9 @@
 ### Useful command
 
 ``` bash
+# pass sudo password as stdin
+echo password | sudo -S apt update
+
 # cat command to write a file with multiline text
 cat <<EOF >> akilan.txt
 Hello Akilan
@@ -30,6 +33,19 @@ sudo EDITOR=vi visudo # use vi editor
 # u g o a -> user, group, others, all
 chmod a+w hello.txt # allow write access for all
 chmod +x hello.txt # execute permission for all
+
+## Process
+kill -l # list all the signals
+jobs # list job tables
+# Run background jobs
+sleep 500 &
+sleep 600 &
+sleep 700 &
+
+fg $JOB_ID # it brings the job in stdin
+kill -9 13046 # It will kill the process forcibly
+kill -20 13046 # SIGTSTP stop the process
+kill -18 13046 # SIGCONT start the ps again
 
 ```
 
